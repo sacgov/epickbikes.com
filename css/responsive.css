@@ -482,8 +482,9 @@
 	}
 	.block_lg div.card p {
 		font-size: 14px;
-		min-height: 150px;
-		padding: 0 15px;
+	    height: 105px;
+        padding: 0 15px;
+        min-height: 105px;
 	}
 	.block_lg div.card .btn {
 		font-size: 14px;

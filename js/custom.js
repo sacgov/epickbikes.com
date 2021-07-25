@@ -61,32 +61,26 @@ $(document).ready(function() {
     var span__a = "Efficiency, Energy and Enthusiasm. All at one place";
 
 
-    $('#ourTeam li').mouseover(function(e) {
+    $('#ourTeam .content').mouseenter(function(e) {
       e.preventDefault();
+      
+      console.log('mouseenter triggered')
 
       
-      var h1Value = $(this).find('p').text();
+      var h1Value = $(this).parent().find('p').text();
       var spanValue = $(this).find('h3').text();
-      $('#contentRight').html(function() {
-          return $(this)
-          .html()
-          .replace(h1__a, h1Value)
-          .replace(span__a, spanValue);
-        });
+      console.log("h1value",h1Value);
+      console.log("spanvalus",spanValue);
+      $('#contentRightHeading').text(h1Value);
+      $('#contentRightDesc').text(spanValue);
     });
 
-    $('#ourTeam li').mouseout(function(e) {
+    $('#ourTeam .content').mouseleave(function(e) {
       e.preventDefault();
-
-      var h1Value = $(this).find('p').text();
-      var spanValue = $(this).find('h3').text();
-
-      $('#contentRight').html(function() {
-          return $(this)
-          .html()
-          .replace(h1Value, h1__a)
-          .replace(spanValue, span__a);
-        });
+      console.log('mouseleave triggered')
+      
+      $('#contentRightHeading').text(h1__a);
+      $('#contentRightDesc').text(span__a);
     });
 
     $('.banner-1 img').click(function() { 

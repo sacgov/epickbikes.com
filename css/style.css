@@ -603,10 +603,10 @@ div.cl_block{
     border: 3px solid rgba(0, 145, 255, 1);
 }
 .product_features .color_select li:first-child a {
-	background: rgba(148, 16, 26, 1);
+	background: rgba(131, 180, 255, 1);
 }
 .product_features .color_select li:nth-child(2) a {
-	background: rgba(131, 180, 255, 1);
+	background: rgba(148, 16, 26, 1);
 }
 .product_features .color_select li:nth-child(3) a {
 	background: rgba(49, 184, 172, 1);

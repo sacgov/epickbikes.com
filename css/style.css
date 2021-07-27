@@ -600,7 +600,7 @@ div.cl_block{
 	max-height: 400px;
 }
 .product_features .color_select li.active a {
-    border: 3px solid rgba(0, 145, 255, 1);
+    border: 3px solid rgba(148, 16, 26, 1);
 }
 .product_features .color_select li:first-child a {
 	background: rgba(148, 16, 26, 1);

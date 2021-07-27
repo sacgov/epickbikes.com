@@ -609,13 +609,13 @@ div.cl_block{
 	background: rgba(148, 16, 26, 1);
 }
 .product_features .color_select li:nth-child(3) a {
-	background: rgba(49, 184, 172, 1);
-}
-.product_features .color_select li:nth-child(4) a {
 	background: rgba(113, 63, 47, 1);
 }
-.product_features .color_select li:nth-child(5) a {
+.product_features .color_select li:nth-child(4) a {
 	background: rgba(0, 0, 0, 1);
+}
+.product_features .color_select li:nth-child(5) a {
+	background: rgba(49, 184, 172, 1);
 }
 .product_details img.img-fluid {
     max-height: 480px;
